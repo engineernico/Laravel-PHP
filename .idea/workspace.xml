@@ -22,13 +22,25 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f47410ab-98e2-4780-abee-fea8b17e4d2c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+    <list default="true" id="f47410ab-98e2-4780-abee-fea8b17e4d2c" name="Default Changelist" comment="test">
       <change beforePath="$PROJECT_DIR$/.idea/ecommrce.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/ecommrce.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Console/Kernel.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Console/Kernel.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/Auth/LoginController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/Auth/LoginController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Kernel.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Kernel.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/User.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/User.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/composer.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/app.php" beforeDir="false" afterPath="$PROJECT_DIR$/config/app.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/services.php" beforeDir="false" afterPath="$PROJECT_DIR$/config/services.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/session.php" beforeDir="false" afterPath="$PROJECT_DIR$/config/session.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/migrations/2014_10_12_000000_create_users_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/migrations/2014_10_12_000000_create_users_table.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/auth/login.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/auth/login.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/auth/register.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/auth/register.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/landing.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/landing.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/layouts/master.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/layouts/master.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -151,6 +163,7 @@
       <path value="$PROJECT_DIR$/vendor/league/oauth1-client" />
       <path value="$PROJECT_DIR$/vendor/guzzle/guzzle" />
       <path value="$PROJECT_DIR$/vendor/league/mime-type-detection" />
+      <path value="$PROJECT_DIR$/vendor/mcamara/laravel-localization" />
     </include_path>
   </component>
   <component name="ProjectId" id="1fdmc6rri4dSHynf8xFGhMaiktV" />
@@ -161,22 +174,23 @@
   </component>
   <component name="PropertiesComponent">
     <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="DatabaseDriversLRU" value="mysql" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
-    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/app/Http/Controllers/defuik" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/resources/views/forms" />
     <property name="nodejs_package_manager_path" value="npm" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\xampp\htdocs\ecommrce\app\models" />
       <recent name="C:\xampp\htdocs\ecommrce\app\Http\Controllers\Auth" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\xampp\htdocs\ecommrce\resources\views\includes" />
+      <recent name="C:\xampp\htdocs\ecommrce\resources\views\forms" />
+      <recent name="C:\xampp\htdocs\ecommrce\resources\lang\ar" />
+      <recent name="C:\xampp\htdocs\ecommrce\resources\lang\en" />
+      <recent name="C:\xampp\htdocs\ecommrce\app\Http\Controllers" />
       <recent name="C:\xampp\htdocs\ecommrce\resources\views\layouts" />
-      <recent name="C:\xampp\htdocs\ecommrce\resources\views" />
-      <recent name="C:\xampp\htdocs\ecommrce\public" />
-      <recent name="C:\xampp\htdocs\ecommrce\app\Http\Controllers\Auth" />
     </key>
   </component>
   <component name="RunManager">
@@ -207,8 +221,35 @@
       <workItem from="1597933276596" duration="917000" />
       <workItem from="1597965591198" duration="3124000" />
       <workItem from="1598140194371" duration="6204000" />
-      <workItem from="1598213781761" duration="376000" />
+      <workItem from="1598213781761" duration="4559000" />
+      <workItem from="1598238559542" duration="1908000" />
+      <workItem from="1598282107358" duration="28210000" />
+      <workItem from="1598491244621" duration="1243000" />
+      <workItem from="1598589640104" duration="3130000" />
+      <workItem from="1598770038706" duration="3308000" />
+      <workItem from="1598929695477" duration="5933000" />
+      <workItem from="1598936069800" duration="1761000" />
+      <workItem from="1599004016523" duration="4566000" />
+      <workItem from="1599075181688" duration="427000" />
+      <workItem from="1599075668033" duration="10000" />
+      <workItem from="1599076002026" duration="885000" />
+      <workItem from="1599077517712" duration="953000" />
+      <workItem from="1599917133115" duration="36841000" />
+      <workItem from="1600178052761" duration="18215000" />
+      <workItem from="1600327169727" duration="133000" />
+      <workItem from="1600327354366" duration="1040000" />
+      <workItem from="1600342122529" duration="7270000" />
+      <workItem from="1600511740100" duration="6545000" />
+      <workItem from="1600605647287" duration="6326000" />
     </task>
+    <task id="LOCAL-00001" summary="test">
+      <created>1598214212809</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1598214212809</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -226,11 +267,19 @@
     </option>
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="test" />
+    <option name="LAST_COMMIT_MESSAGE" value="test" />
+  </component>
   <component name="WindowStateProjectService">
-    <state x="580" y="185" key="FileChooserDialogImpl" timestamp="1597185996632">
+    <state x="392" y="88" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1598238905932">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state x="580" y="185" key="FileChooserDialogImpl/0.0.1600.860@0.0.1600.860" timestamp="1597185996632" />
+    <state x="392" y="88" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1600.860@0.0.1600.860" timestamp="1598238905932" />
+    <state x="580" y="185" key="FileChooserDialogImpl" timestamp="1600087892952">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state x="580" y="185" key="FileChooserDialogImpl/0.0.1600.860@0.0.1600.860" timestamp="1600087892952" />
     <state width="1557" height="198" key="GridCell.Tab.0.bottom" timestamp="1597097931074">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
@@ -247,13 +296,17 @@
       <screen x="0" y="0" width="1600" height="860" />
     </state>
     <state width="1557" height="198" key="GridCell.Tab.0.right/0.0.1600.860@0.0.1600.860" timestamp="1597097931062" />
-    <state x="561" y="153" key="NewPhpClassDialog" timestamp="1596648107516">
+    <state x="561" y="153" key="NewPhpClassDialog" timestamp="1598240095593">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state x="561" y="153" key="NewPhpClassDialog/0.0.1600.860@0.0.1600.860" timestamp="1596648107516" />
-    <state x="463" y="180" width="672" height="678" key="search.everywhere.popup" timestamp="1597507450079">
+    <state x="561" y="153" key="NewPhpClassDialog/0.0.1600.860@0.0.1600.860" timestamp="1598240095593" />
+    <state x="507" y="29" width="585" height="801" key="find.popup" timestamp="1598216166067">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state x="463" y="180" width="672" height="678" key="search.everywhere.popup/0.0.1600.860@0.0.1600.860" timestamp="1597507450079" />
+    <state x="507" y="29" width="585" height="801" key="find.popup/0.0.1600.860@0.0.1600.860" timestamp="1598216166067" />
+    <state x="463" y="180" width="672" height="678" key="search.everywhere.popup" timestamp="1598770381567">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state x="463" y="180" width="672" height="678" key="search.everywhere.popup/0.0.1600.860@0.0.1600.860" timestamp="1598770381567" />
   </component>
 </project>

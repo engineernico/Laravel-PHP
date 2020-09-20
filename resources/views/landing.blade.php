@@ -1,5 +1,5 @@
 @extends('layouts.master')
-@section('content')
+@section('contento')
 
 
     <!-- Portfolio Section-->
@@ -13,6 +13,7 @@
                 <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
                 <div class="divider-custom-line"></div>
             </div>
+
             <!-- Portfolio Grid Items-->
             <div class="row">
                 <!-- Portfolio Item 1-->

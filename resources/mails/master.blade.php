@@ -18,11 +18,11 @@
 </head>
 <body id="page-top">
 <!-- Navigation-->
-@include('includes.header')
 
-@yield('contento')
 
-<!-- Footer-->
+
+
+
 <footer class="footer text-center">
     <div class="container">
         <div class="row">
